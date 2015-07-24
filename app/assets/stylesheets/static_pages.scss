@@ -1,0 +1,54 @@
+// Place all the styles related to the static_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+ .overlay {
+  background: #0066FF;
+  opacity: 2.8;
+  width: 240px;
+  height:240px;
+  float: left;
+  margin: 5rem 5%;
+  position: relative;
+
+  img {
+    width: 240px;
+    height: 240px;
+    position:absolute; 
+    border:3px outset; 
+    &:hover{opacity:0.325;}
+  }
+  h1 {
+    padding:29.625% 0;
+    text-align: center;
+    color: white;
+    font: 35px "Helvetica Neue" solid;
+    letter-spacing: 5px;
+    opacity: 2.0;
+  }
+}
+
+
+
+.headline {
+  color: #0398de;
+  font-size: 25px;
+  word-spacing: 1px;
+  line-height: 1.4;
+  margin-top: -65px;
+}
+
+.headline2 {
+  color: #0398de;
+  font-size: 25px;
+  word-spacing: 1px;
+}
+
+.mainback {
+  background-image:url("../assets/brick-bg.jpg");
+  background-repeat:repeat;
+  opacity: .1;
+}
+
+
