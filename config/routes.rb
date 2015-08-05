@@ -1,9 +1,14 @@
 Rails.application.routes.draw do
+  devise_for :users, :skip => :registrations
+  resources :users
   resources :supports
   resources :locations
   resources :partners
-  resources :events
-  resources :events
+  resources :events do
+    collection do
+      get "search"
+    end
+  end
   resources :abouts
   resources :static_pages
 

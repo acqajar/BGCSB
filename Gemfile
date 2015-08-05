@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'activeadmin', github: 'gregbell/active_admin'
-gem "meta_search"
+gem 'devise'
+
+gem 'searchkick'
 
 gem 'bootstrap-sass'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
