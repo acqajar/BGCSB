@@ -1,4 +1,4 @@
 class Event < ActiveRecord::Base
-	searchkick
+	# searchkick
 	belongs_to :user
 end
